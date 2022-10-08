@@ -1,0 +1,31 @@
+op:
+  task: 1
+#----------------------------
+#  0: Sphere
+#  1: Rosenbrock
+#  2: Rastrigin
+#  3: Michalewicz
+#----------------------------
+  mask_order: 1
+#----------------------------
+#  0: linkage tree order
+#  1: incremental linkage set (ILS)
+#----------------------------
+
+
+hp:
+  dim: 10
+  generations: 1000
+  bound_min: 0
+  bound_max: 5
+  init_mean: 2.5
+  components: 2
+  fitess_top_proportion: 0.2
+
+  # force_replace: True
+
+
+  
+  np_seed: 1
+  cma_seed: 1
+  RM_time: 0 # 0: without RM_BM 
